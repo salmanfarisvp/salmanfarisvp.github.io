@@ -1,3 +1,2 @@
-## Salman Faris Personal Blog
-
-Hi, Welcome to my personal blog. 
+## Salman Faris 
+[![Automatic build](https://github.com/salmanfarisvp/salmanfarisvp.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/salmanfarisvp/salmanfarisvp.github.io/actions/workflows/pages-deploy.yml)
