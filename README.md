@@ -1,2 +1,3 @@
-# salmanfarisvp.github.io
-Personal Website 
+## Salman Faris Personal Blog
+
+Hi, Welcome to my personal blog. 
