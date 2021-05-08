@@ -2,7 +2,8 @@
 
 # Import the theme
 #theme: jekyll-theme-chirpy
-remote_theme: jekyll-theme-chirpy
+#remote_theme: jekyll-theme-chirpy
+theme: minima 
 
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
