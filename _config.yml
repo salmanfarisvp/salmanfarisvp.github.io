@@ -28,7 +28,7 @@ description: >-                        # used by seo meta and the atom feed
   Electronics and Software Bio Log
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://salmanfarisvp.github.io'
+url: ''
 
 github:
   username: salmanfarisvp            # change to your github username
