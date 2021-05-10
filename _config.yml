@@ -1,8 +1,8 @@
 # The Site Configuration
 
 # Import the theme
-#theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
+#remote_theme: cotes2020/jekyll-theme-chirpy
 #remote_theme: https://github.com/benbalter/jekyll-remote-theme
 #remote_theme: jekyll-theme-chirpy
 #theme: minima 
