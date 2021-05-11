@@ -1,0 +1,119 @@
+I"t<p>In this blog we are going to learn to host web pages on GitHub for free using GitHub Pages!🤩 .  we will host very simple web page like <a href="https://0xsalfar.github.io">https://0xsalfar.github.io</a> from scratch to complex one.</p>
+
+<p><a href="https://youtu.be/w3jLJU7DT5E"><img src="https://img.youtube.com/vi/w3jLJU7DT5E/0.jpg" alt="What is Github" /></a></p>
+
+<p>So what is GitHub ? GitHub is company that provide software development version control using Git! So what is Git? Git is a distributed version-control system for tracking changes in source code during software development. it’s very convenient for large software companies and or many developers working in a same project. There are many version control service like GitHub example GitLab,Bitbucket ..etc and we can also host our own verison in our server too.</p>
+
+<p><a href="https://youtu.be/2MsN8gpT6jY"><img src="https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg" alt="Github pages" /></a></p>
+
+<p>Here we are using  GitHub pages service, it’s static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
+
+<p>we can use the github.io sub domain or we can also use cutom domain , here we just using the default github.io sub domain for simplicity . we can start  setup by ste</p>
+
+<h2 id="step-1-create-github-account">Step 1: Create GitHub account</h2>
+
+<p>First we need a GitHub account , that’s very simple and straightforward, you need to go to github.com  and fill your personal information like Email id , Username and  Password for the Github profile then click Sign up for GitHub, if  you already have an account you can login to that and skip the Step 1.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/001.png" alt="Create Github Account" />
+<em>GitHub Create Account Page</em></p>
+
+<p>next you might need some human verification to avoid bot’s and programs to create the GitHub account , that’s also very simple like my challenge was to align a turtle 😅.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/002.png" alt="Create Github Account" />
+<em>GitHub Human Verification</em></p>
+
+<p>next we need to select a plan. GitHub two basic plans , one is free that does’;t have any private repo that can collaborate more than one  and another plan is Pro that actually  for team who need private repo and also many features.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/003.png" alt="Create Github Account" />
+<em>GitHub Plan’s</em></p>
+
+<p>As individual we just need to Free plan, so select that and following that we need to enter some information.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/004.png" alt="Create Github Account" /></p>
+
+<p>You can select depends what applies to you and click Complete Setup.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/005.png" alt="Create Github Account" /></p>
+
+<p>Next we need to verify our mail id in order to get start to use GitHub.  for that check your given mail id and confirm the mail by clicking verify email address button .</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/006.png" alt="Create Github Account" /></p>
+
+<h2 id="step-2-start-a-new-project">Step 2: Start a new Project.</h2>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/007.png" alt="Create Github Account" /></p>
+
+<p>next we need to start a new project , it can done by clicking the start a project button.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/008.png" alt="Create Github Account" /></p>
+
+<p>next gave name to project , since we are building the GitHub Page website use username.github.io . then add description then select the Public radio button and finally select Initialize this repository with a README , it will create README.md file then click Create repository to start.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/009.png" alt="Create Github Account" /></p>
+
+<p>now we can see a window like this, that mean we created our first GitHub project 🎉.</p>
+
+<h2 id="step-3-create-html-file">Step 3: Create HTML File.</h2>
+
+<p>Click  Create new file and put index.html as name and add some basic html codes.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>&lt;html&gt;
+  &lt;body&gt;
+    &lt;h1&gt; Hello World &lt;/h1&gt;
+    &lt;p&gt;Thi is webiste is hosted in github using github pages and html &lt;/p&gt;
+  &lt;/body
+&lt;html&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>next add some commit messages and click Commit new file.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/010.png" alt="Create Github Account" /></p>
+
+<p>next you can see the index.html file on the listed file.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/011.png" alt="Create Github Account" /></p>
+
+<h2 id="step-4-initialize-github-pages">Step 4: Initialize GitHub Pages.</h2>
+
+<p>Next we need to Initialize GitHub Pages for that, we need to go to settings -&gt; GitHub Pages</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/012.png" alt="Create Github Account" /></p>
+
+<p>here you can see the GitHub page is automatically enabled , that because we used the GitHub page naming conversion to name the project.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/013.png" alt="Create Github Account" /></p>
+
+<p>if you are not using the username.github.io you need specify the branch to be used for GitHub pages like in the below.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/014.png" alt="Create Github Account" /></p>
+
+<p>select the master branch and wait until the page automatically refresh and you’ill get a URL like username.github.io/repoName mine is https://0xsalfar.github.io/sample/</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/015.png" alt="Create Github Account" /></p>
+
+<h2 id="step-5-browse-github-page">Step 5: Browse GitHub Page.</h2>
+
+<p>Click the URL and you can browse your web page, you just hosted your own website cool 😎.</p>
+
+<p><img src="../../assets/2020-03-30-host-a-website-on-gitHub-for-free-using-gitHub-pages-part-1/016.png" alt="Create Github Account" /></p>
+
+<h2 id="todo">ToDo:</h2>
+
+<ul>
+  <li>Use any free webiste template and customze your website.</li>
+  <li>Use Custom domain like www.example.com instead to github.io sub-domain.</li>
+  <li>Try using markdown instead of HTML</li>
+  <li>Try using Jekyll or other statsic website genarator.</li>
+</ul>
+
+<p>Part 2 will update soon with the ToDo. 😋 You can add your questions and feedback on our <a href="https://community.makergram.com/topic/128/part-1-host-a-website-on-github-for-free-using-github-pages-1-2">MakerGram community forum</a> .</p>
+
+<p>Originally published at <a href="https://makergram.com/blog/part1-host-website-on-github-for-free/">https://makergram.com/blog/part1-host-website-on-github-for-free/</a> .</p>
+
+:ET
