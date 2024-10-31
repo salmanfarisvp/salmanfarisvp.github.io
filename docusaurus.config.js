@@ -77,6 +77,15 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@gracefullight/docusaurus-plugin-microsoft-clarity',
+      {
+        projectId: 'n6w7cpplvn',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
