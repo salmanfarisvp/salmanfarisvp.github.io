@@ -13,6 +13,13 @@
   overflow: hidden;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     min-height: 100vh;
@@ -20,8 +27,10 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
 }
+
+
