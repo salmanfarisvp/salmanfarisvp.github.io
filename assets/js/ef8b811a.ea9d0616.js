@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksalmanfarisvp=self.webpackChunksalmanfarisvp||[]).push([[947],{6600:a=>{a.exports=JSON.parse('{"authors":[{"name":"Salman Faris","key":"salmanfarisvp","page":null,"count":1}]}')}}]);

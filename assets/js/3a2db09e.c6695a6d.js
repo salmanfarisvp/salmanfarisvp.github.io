@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksalmanfarisvp=self.webpackChunksalmanfarisvp||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Events","permalink":"/blog/tags/events","description":"Events Tag","count":11},{"label":"Review","permalink":"/blog/tags/review","description":"Review Tag","count":1}]}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksalmanfarisvp=self.webpackChunksalmanfarisvp||[]).push([[121],{8070:s=>{s.exports=JSON.parse('{"tags":[{"label":"Community","permalink":"/blog/tags/community","description":"Communities Tag","count":1}]}')}}]);
