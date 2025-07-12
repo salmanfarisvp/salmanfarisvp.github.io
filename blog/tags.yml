@@ -1,21 +1,24 @@
-community:
-  label: Community
-  permalink: /community
-  description: Communities Tag
-
 project:
   label: Project
   permalink: /project
   description: Projects Tag
-
 
 talks:
   label: Talks
   permalink: /talks
   description: Talks Tag
 
-
 events:
   label: Events
   permalink: /events
   description: Events Tag
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Tutorial Tag
+
+review:
+  label: Review
+  permalink: /review
+  description: Review Tag
