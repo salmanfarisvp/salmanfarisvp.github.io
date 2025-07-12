@@ -45,14 +45,14 @@ const ProjectList = [
   },
   {
     title: 'Fight Fire 🔥 - Wild Fire Prediction using TinyML 🧠',
-    image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    image: 'https://hackster.imgix.net/uploads/attachments/1503029/_Uq5VHx9Sf0.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
     description: 'Fight Fire is a wildfire prediction device that will help the firefighting authority to respond quickly to the wildfire, Co-Developed with Zain Muhammed',
     link: 'https://www.hackster.io/user102774/fight-fire-wild-fire-prediction-using-tinyml-df7572',
     tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.LoRa, ProjectTags.EdgeImpulse, ProjectTags.IoT]
   },
   {
     title: 'Speech Recognition Using Wio Terminal & Codecraft + Edge Impulse',
-    image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    image: 'https://hackster.imgix.net/uploads/attachments/1347242/speech-recognition_ZJoWUQxwRA.gif',
     description: 'A simple voice recognition project using Codecraft graphical programming, Wio Terminal and Edge Impulse.',
     link: 'https://www.hackster.io/Salmanfarisvp/speech-recognition-using-wio-terminal-codecraft-ei-f1c4a1',
     tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.EdgeImpulse,]
