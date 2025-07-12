@@ -10,41 +10,157 @@ import { useState } from 'react';
 const ProjectTags = {
   ALL: 'All',
   TinyML: 'TinyML',
-  nRF52840: 'nRF52840',
   LoRa: 'LoRa',
   EdgeImpulse: 'EdgeImpulse',
-  WEB: 'Web Development',
-  AI: 'AI/ML'
+  WiFi: 'WiFi',
+  Web: 'Web',
+  AI: 'AI/ML',
+  Contest: 'Contest',
+  DevelopmentBoard: 'Development Board',
+  IoT: 'IoT',
+  diy: 'DIY'
 };
 
 const ProjectList = [
   {
-    title: 'TinyML Forest Ranger: Illegal Logging Detection and Alert 🪵',
-    image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
-    description: 'TinyML Forest Ranger detects illegal logging using TinyML and LoRa on the Helium Network, enabling real-time alerts for forest protection.',
-    link: 'https://www.hackster.io/Salmanfarisvp/tinyml-forest-ranger-illegal-logging-detection-and-alert-c8c2fd',
-    tags: [ProjectTags.TinyML, ProjectTags.nRF52840, ProjectTags.LoRa, ProjectTags.EdgeImpulse]
+    title: 'Build a Environmental Monitoring System with Thingy:91x',
+    image: 'https://hackster.imgix.net/uploads/attachments/1854063/_q649rKmKuZ.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'As part of the MakerTrain 2025 contest, I built a Environmental Monitoring System with Thingy:91x',
+    link: 'https://www.hackster.io/Salmanfarisvp/build-a-environmental-monitoring-system-with-thingy91x-c8c2fd',
+    tags: [ProjectTags.WiFi, ProjectTags.Contest, ProjectTags.DevelopmentBoard, ProjectTags.IoT]
   },
   {
     title: 'TinyML Forest Ranger: Illegal Logging Detection and Alert 🪵',
     image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
     description: 'TinyML Forest Ranger detects illegal logging using TinyML and LoRa on the Helium Network, enabling real-time alerts for forest protection.',
     link: 'https://www.hackster.io/Salmanfarisvp/tinyml-forest-ranger-illegal-logging-detection-and-alert-c8c2fd',
-    tags: [ProjectTags.TinyML, ProjectTags.nRF52840, ProjectTags.LoRa, ProjectTags.EdgeImpulse]
+    tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.LoRa, ProjectTags.EdgeImpulse, ProjectTags.IoT]
   },
   {
-    title: 'TinyML Forest Ranger: Illegal Logging Detection and Alert 🪵',
-    image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
-    description: 'TinyML Forest Ranger detects illegal logging using TinyML and LoRa on the Helium Network, enabling real-time alerts for forest protection.',
-    link: 'https://www.hackster.io/Salmanfarisvp/tinyml-forest-ranger-illegal-logging-detection-and-alert-c8c2fd',
-    tags: [ProjectTags.TinyML, ProjectTags.nRF52840, ProjectTags.LoRa, ProjectTags.EdgeImpulse]
+    title: 'Setting Up Anthias on Raspberry Pi for Digital Signage 🖥️',
+    image: 'https://hackster.imgix.net/uploads/attachments/1661112/_8w5gX2JzAj.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'Transform your Raspberry Pi into a powerful digital signage hub with Anthias! This step-by-step guide helps you to install Anthias on Pi.',
+    link: 'https://www.hackster.io/Salmanfarisvp/setting-up-anthias-on-raspberry-pi-for-digital-signage-9f6a1b',
+    tags: [ProjectTags.Web, ProjectTags.DevelopmentBoard, ProjectTags.IoT]
   },
   {
-    title: 'TinyML Forest Ranger: Illegal Logging Detection and Alert 🪵',
+    title: 'Fight Fire 🔥 - Wild Fire Prediction using TinyML 🧠',
     image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
-    description: 'TinyML Forest Ranger detects illegal logging using TinyML and LoRa on the Helium Network, enabling real-time alerts for forest protection.',
-    link: 'https://www.hackster.io/Salmanfarisvp/tinyml-forest-ranger-illegal-logging-detection-and-alert-c8c2fd',
-    tags: [ProjectTags.TinyML, ProjectTags.nRF52840, ProjectTags.LoRa, ProjectTags.EdgeImpulse]
+    description: 'Fight Fire is a wildfire prediction device that will help the firefighting authority to respond quickly to the wildfire, Co-Developed with Zain Muhammed',
+    link: 'https://www.hackster.io/user102774/fight-fire-wild-fire-prediction-using-tinyml-df7572',
+    tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.LoRa, ProjectTags.EdgeImpulse, ProjectTags.IoT]
+  },
+  {
+    title: 'Speech Recognition Using Wio Terminal & Codecraft + Edge Impulse',
+    image: 'https://hackster.imgix.net/uploads/attachments/1834520/_wsK0ikV6em.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'A simple voice recognition project using Codecraft graphical programming, Wio Terminal and Edge Impulse.',
+    link: 'https://www.hackster.io/Salmanfarisvp/speech-recognition-using-wio-terminal-codecraft-ei-f1c4a1',
+    tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.EdgeImpulse,]
+  },
+  {
+    title: 'Play Chrome\'s Dino Game Physically 🦕',
+    image: 'https://hackster.imgix.net/uploads/attachments/1323340/powered_by_(1)_THUZrCwShJ.gif',
+    description: 'Learn how to play Chrome\'s dino game physically using Edge Impulse and Seeed Studio Wio Terminal',
+    link: 'https://www.hackster.io/Salmanfarisvp/play-chrome-s-dino-game-physically-db42c2',
+    tags: [ProjectTags.TinyML, ProjectTags.DevelopmentBoard, ProjectTags.EdgeImpulse, ProjectTags.IoT]
+  },
+  {
+    title: 'Color Terminal 🎨',
+    image: 'https://hackster.imgix.net/uploads/attachments/1238245/_npJUL2x9lm.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'The Color Terminal can be used to pick color from physical things by scanning its surface with Seeed Wio Terminal and TCS34725.',
+    link: 'https://www.hackster.io/Salmanfarisvp/color-terminal-7d6650',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'Air Quality Monitoring Station with Wio Terminal',
+    image: 'https://hackster.imgix.net/uploads/attachments/1187753/_VE42v6NhvT.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'The Air Quality Terminal can be used as an indoor air quality meter to monitor VOCs, CO, NO2, C2H5CH, Temp and Humidity.',
+    link: 'https://www.hackster.io/Salmanfarisvp/air-quality-monitoring-station-with-wio-terminal-6ef85f',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'MQTT on Wio Terminal',
+    image: 'https://hackster.imgix.net/uploads/attachments/1169821/_XdV9WsbGAX.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'This project shows how to use MQTT on Wio Terminal to send and receive messages from a broker.',
+    link: 'https://www.hackster.io/Salmanfarisvp/mqtt-on-wio-terminal-4ea8f8',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'Malaria Detection using Open Microscope and Deep learning',
+    image: 'https://hackster.imgix.net/uploads/attachments/1073012/_aQNauZVfuQ.blob?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'An open-source microscope that can detect disease like malaria, the main goal is to give quality health checkup to poor people.',
+    link: 'https://www.hackster.io/makergram/malaria-detection-using-open-microscope-and-deep-learning-7af1d8',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.AI]
+  },
+  {
+    title: 'Burglar Alarm',
+    image: 'https://hackster.imgix.net/uploads/attachments/589337/burglar-unpleasant-surprise-thief-vector-illustration-cartoon-_JN4MGhRlln.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'A simple burglar alarm built using an ATtiny45. You can attach it anywhere and will it will inform when someone tries to steal something.',
+    link: 'https://www.hackster.io/Salmanfarisvp/burglar-alarm-ae894a',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'SIGHT: For the Blind',
+    image: 'https://hackster.imgix.net/uploads/attachments/370758/untitled-2_plvVJydOrd.png?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'A pair of smart glasses for the blind. Powered by Android Things and TensorFlow.',
+    link: 'https://www.hackster.io/makergram/sight-for-the-blind-c1e1b9',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.AI, ProjectTags.Contest]
+  },
+  {
+    title: 'SEBi: Smart Electric Bin',
+    image: 'https://hackster.imgix.net/uploads/attachments/355533/wastebin_rmui9iFi1E.png?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'Smart and efficient way to monitor your waste bin and help you to dispose of it at the correct time.',
+    link: 'https://www.hackster.io/Salmanfarisvp/sebi-smart-electric-bin-c97e05',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'Getting Started in Android Things with Raspberry Pi',
+    image: 'https://hackster.imgix.net/uploads/attachments/295531/photo_2017-04-24_23-41-19_tOHI53ONzX.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'Let\'s get started in Android Things with Raspberry Pi by blinking an LED.',
+    link: 'https://hackster.imgix.net/uploads/attachments/353780/image1_x9K9v9VM3t.png?auto=compress%2Cformat&w=900&h=675&fit=min',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'GooglePi - Google Assistant on Raspberry Pi',
+    image: 'https://hackster.imgix.net/uploads/attachments/300998/raspberrygoogle_EqeBkOAuqj.png?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'A DIY Google Home using your Raspberry Pi.',
+    link: 'https://www.hackster.io/Salmanfarisvp/googlepi-google-assistant-on-raspberry-pi-9f3677',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.Web]
+  },
+  {
+    title: 'DIY - Audio Amplifier',
+    image: 'https://hackster.imgix.net/uploads/attachments/295531/photo_2017-04-24_23-41-19_tOHI53ONzX.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'Simple Audio Amplifier based on LM386.',
+    link: 'https://www.hackster.io/Salmanfarisvp/diy-audio-amplifier-462fc7',
+    tags: [ProjectTags.diy]
+  },
+  {
+    title: 'Jarvis - Personal Assistant',
+    image: 'https://hackster.imgix.net/uploads/attachments/272294/20170313_130951_ZIuNHVci0S.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'A personal assistant powered by Linklt Smart 7688 Duo and Telegram Bot for a smart office and smart home.',
+    link: 'https://www.hackster.io/Salmanfarisvp/jarvis-personal-assistant-ef7392',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.Web, ProjectTags.AI]
+  },
+  {
+    title: 'Telegram Bot With Raspberry Pi',
+    image: 'https://hackster.imgix.net/uploads/attachments/248116/fhpjmp0i4orkojo_jcstvhtw3c_cF1uvjz004.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'Host a Telegram Bot on your Raspberry Pi and chat with your brand new IoT device!',
+    link: 'https://www.hackster.io/Salmanfarisvp/telegram-bot-with-raspberry-pi-f373da',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.Web]
+  },
+  {
+    title: 'Particle + Raspberry Pi',
+    image: 'https://hackster.imgix.net/uploads/attachments/248116/fhpjmp0i4orkojo_jcstvhtw3c_cF1uvjz004.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'The world\'s favorite low-cost computer now connects to the world\'s most popular IoT platform!',
+    link: 'https://www.hackster.io/Salmanfarisvp/particle-raspberry-pi-caa234',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT]
+  },
+  {
+    title: 'WebServerBlink Using NodeMCU',
+    image: 'https://hackster.imgix.net/uploads/attachments/246103/back_dgFuHjElID.jpg?auto=compress%2Cformat&w=900&h=675&fit=min',
+    description: 'NodeMCU is an open source IoT platform. It includes firmware which runs on the ESP8266 Wi-Fi SoC. It\'s a simple Blink using Webserver.',
+    link: 'https://www.hackster.io/Salmanfarisvp/webserverblink-using-nodemcu-26e1ed',
+    tags: [ProjectTags.DevelopmentBoard, ProjectTags.IoT, ProjectTags.Web]
   },
 
 ];
