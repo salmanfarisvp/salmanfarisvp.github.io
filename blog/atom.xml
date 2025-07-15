@@ -6,6 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://salmanfarisvp.github.io/blog"/>
     <subtitle>Salman Faris 👋 Blog</subtitle>
+    <icon>https://salmanfarisvp.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Weekend well spent at TinkerSpace ⚡️ - iLAB x TinkerSpace x MakerGram.]]></title>
         <id>https://salmanfarisvp.github.io/blog/ilab-tinkerspace-event</id>
