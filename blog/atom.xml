@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://salmanfarisvp.github.io/blog</id>
     <title>Salman Faris 👋 Blog</title>
-    <updated>2025-07-20T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://salmanfarisvp.github.io/blog"/>
     <subtitle>Salman Faris 👋 Blog</subtitle>
     <icon>https://salmanfarisvp.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MakerThursday 0x00: 2026 Plan for Maker Thursday, 2025 Reflections and Project showcasing]]></title>
+        <id>https://salmanfarisvp.github.io/blog/maker-thursday-0x00</id>
+        <link href="https://salmanfarisvp.github.io/blog/maker-thursday-0x00"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Group Photo]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Group Photo" src="https://salmanfarisvp.github.io/assets/images/group-photo-f6130bbc7dbabffcc59b06dfa8ecee3b.png" width="3216" height="1806" class="img_ev3q">
+<em>MakerThursday 0x00 Group Photo</em></p>
+<p>We reflected on the 2025 event highlights and gathered feedback from the community. Throughout 2025, we hosted <strong>27 Maker Thursday sessions</strong>, with <strong>184 unique attendees</strong> and <strong>22 different hosts</strong>, which is a strong outcome for a community-run initiative.</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="2025 Statistics" src="https://salmanfarisvp.github.io/assets/images/2025-statistics-76f7d5dc6c663ed96dd2a6a86c8ffc31.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>We reflected on the 2025 event highlights and gathered feedback from the community. Throughout 2025, we hosted <strong>27 Maker Thursday sessions</strong>, with <strong>184 unique attendees</strong> and <strong>22 different hosts</strong>, which is a strong outcome for a community-run initiative.</p>
+<p>While a few weeks were missed due to host unavailability, the situation improved significantly in the later quarters of 2025. More new hosts stepped up to run sessions, which became one of the key highlights of the year.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="achievements">Achievements<a href="https://salmanfarisvp.github.io/blog/maker-thursday-0x00#achievements" class="hash-link" aria-label="Direct link to Achievements" title="Direct link to Achievements" translate="no">​</a></h3>
+<p>We discussed some of the key achivment we got from the MakerThursady using the community.</p>
+<ul>
+<li class="">
+<p><strong><a href="https://pijamkochi.in/PiJam2025/" target="_blank" rel="noopener noreferrer" class="">Raspberry Pi Jam 2025</a></strong> was organized collaboratively by the TinkerSpace and MakerGram community members. The initial discussions for the event began during a Maker Thursday session, and the planning, coordination, and finalization were all carried out within the same Maker Thursday gatherings. Even the speakers were selected from community members who volunteered to contribute. As part of this effort, we received a <strong>Raspberry Pi 16GB</strong> and a <strong>1-year free subscription to Raspberry Pi Magazine</strong>. We are truly proud of this achievement, it reflects a community-driven initiative, <strong>built by the community, for the community</strong>.</p>
+</li>
+<li class="">
+<p><strong>Arduino Day 2025</strong> Similar to Raspberry Pi Jam, Arduino Day 2025 was also organized collaboratively with TinkerSpace community members and MakerGram. The idea and planning originated from Maker Thursday discussions, with community members volunteering as speakers and contributors. <a href="https://salmanfarisvp.com/blog/arduino-day-2025-kochi/" target="_blank" rel="noopener noreferrer" class="">Blog Post</a> , <a href="https://tinkerhub.org/events/LU4PQRP6F4/Aurdino%20Day%202025" target="_blank" rel="noopener noreferrer" class="">Event Page</a>.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Space Carnival Badge" src="https://salmanfarisvp.github.io/assets/images/pcb-badge-0801bbd2ace0126d9499df285fcfaf97.png" width="1920" height="1080" class="img_ev3q"></p>
+<ul>
+<li class=""><strong>Space Carnival Badge</strong> : Creating a PCB badge had been a long-term plan for us, and we finally brought it to life at the end of the year during <strong>TinkerSpace’s 3rd anniversary Space Carnival</strong>. The badge was intentionally simple, using LEDs and batteries, giving curious participants an opportunity to try soldering and build their own badge.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="future-plans">Future Plans<a href="https://salmanfarisvp.github.io/blog/maker-thursday-0x00#future-plans" class="hash-link" aria-label="Direct link to Future Plans" title="Direct link to Future Plans" translate="no">​</a></h2>
+<p>During the review and planning discussion, we aligned on the following actions for the coming year:</p>
+<ul>
+<li class=""><strong>Topic Planning:</strong> Topics and hosts should be confirmed at least <strong>one week in advance</strong>. If not ready, a <strong>filler topic</strong> will be used and an available member will host.</li>
+<li class=""><strong>Documentation:</strong> From 2026 onwards, <strong>every Maker Thursday will be documented</strong>. The host is responsible for a short journal entry, following simple guidelines, giving visibility to both the host and the community.</li>
+<li class=""><strong>Filler Topics:</strong> Preselected topics like <strong>KiCad</strong> and <strong>MQTT</strong> will be used when needed, with more added over time.</li>
+<li class=""><strong>Collaborative Projects:</strong> Encourage <strong>community-driven hardware projects</strong>, with support through curation and mentorship.</li>
+<li class=""><strong>Maker Bench Integration:</strong> Explore ways to bring <strong>Maker Bench projects</strong> into Maker Thursday to increase participation.</li>
+<li class=""><strong>Physical AI Collaboration:</strong> Work with <strong>AI Wednesday</strong> to explore <strong>Physical AI</strong>, focusing on AI running on hardware.</li>
+<li class=""><strong>Personal Goals:</strong> Encourage members to set personal maker goals, such as publishing projects in <strong>Raspberry Pi Magazine</strong> or other international platforms.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="this-weeks-project-presentation">This Week’s Project Presentation<a href="https://salmanfarisvp.github.io/blog/maker-thursday-0x00#this-weeks-project-presentation" class="hash-link" aria-label="Direct link to This Week’s Project Presentation" title="Direct link to This Week’s Project Presentation" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Ramakanth shared Meow Synth" src="https://salmanfarisvp.github.io/assets/images/meow-synth-ramakanth-project-5efec75328b85532540c6633ebc91845.png" width="3208" height="1722" class="img_ev3q"></p>
+<p><strong>Ramakanth</strong> shared <strong>Meow Synth</strong>, an ESP32-based mini synthesizer. Kudos to him for showcasing the project and walking us through his work.</p>
+<p>That’s a wrap for this week. Thanks to everyone for the continued support, and we’re excited for the new year and many more builds ahead.
+<img decoding="async" loading="lazy" alt="Group Photo" src="https://salmanfarisvp.github.io/assets/images/group-photo-f6130bbc7dbabffcc59b06dfa8ecee3b.png" width="3216" height="1806" class="img_ev3q"></p>
+<hr>
+<p>Originally Published at Maker Thursday blog <a href="https://tinkerhub.github.io/makerthursday/blog/2026/01/10/maker-thursday-0x00/" target="_blank" rel="noopener noreferrer" class="">MakerThursday 0x00: 2026 Plan for Maker Thursday, 2025 Reflections and Project showcasing</a></p>]]></content>
+        <author>
+            <name>Salman Faris</name>
+        </author>
+        <category label="Events" term="Events"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Solder Junction:A Fresh Restart to Our MakerGram Newsletter]]></title>
         <id>https://salmanfarisvp.github.io/blog/solder-junction-edition-1</id>
